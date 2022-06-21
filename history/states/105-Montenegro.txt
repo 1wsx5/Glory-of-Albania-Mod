@@ -1,33 +1,36 @@
+
 state={
-	id=836
-	name="STATE_836"
+	id=105
+	name="STATE_105"
 	resources={
-		chromium=70.000
-		aluminium=16.000
+		chromium=20.000
+		aluminium=70.000
 	}
 
 	history={
+		victory_points = {
+			9809 3 
+		}
 		owner = YUG
+		add_core_of = MNT
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			air_base = 2
+			9809 = {
+				naval_base = 1
+
+			}
 
 		}
-		victory_points = {
-			11856 5
-		}
 		add_core_of = YUG
-		add_core_of = MAC
-		add_claim_by = BUL
+
 	}
 
 	provinces={
-		11856 3865
+		9809 9821 11858 
 	}
-	manpower=1374200
+	manpower=895500
 	buildings_max_level_factor=1.000
 	state_category=rural
-
-	local_supplies=0.0
+	local_supplies=3.000
 }
